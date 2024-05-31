@@ -4,8 +4,9 @@ def hello_world():
 print(hello_world())
 
 def hello_world_n(N):
-	string = ""
+	string = ''
 	for i in range(N):
-		string = string + " " + "Hello World!"
-		string = s[1:]
+		string = string + 'Hello World!' + ' '
 	return string
+
+print(hello_world_n(5)) 
